@@ -2,6 +2,9 @@
 
 Current=/home/slave-gui/simple-bash-scripts
 
+echo Hey just added a commit
+
+
 if [ $# != 1 ]; then
   echo Enter two or more args 
   exit 1
