@@ -2,6 +2,7 @@
 
 Current=/home/slave-gui/simple-bash-scripts
 
+#Hello
 
 if [ $# != 1 ]; then
   echo Enter two or more args 
