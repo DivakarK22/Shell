@@ -8,7 +8,7 @@ if [ $# != 1 ]; then
   echo Enter two or more args 
   exit 1
 fi
-
+llllllll
 DESTINATION=$1
 
 if [[ $DESTINATION != */backup ]]; then
