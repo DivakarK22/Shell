@@ -16,6 +16,8 @@ if [[ $DESTINATION != */backup ]]; then
   exit 2
 fi
 
+#pr
+
 mkdir -v -p $DESTINATION
  
 cp -v $Current/*.sh $DESTINATION
