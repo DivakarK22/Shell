@@ -5,10 +5,10 @@ Current=/home/slave-gui/simple-bash-scripts
 #Hellohowyou doeninggsggksahfkhsahfkakß
 
 if [ $# != 1 ]; then
-  echo Enter two or more args 
+  echo Enter two or more args
   exit 1
 fi
-
+#hhhh
 DESTINATION=$1
 
 if [[ $DESTINATION != */backup ]]; then
@@ -17,12 +17,8 @@ if [[ $DESTINATION != */backup ]]; then
 fi
 
 mkdir -v -p $DESTINATION
- 
+
 cp -v $Current/*.sh $DESTINATION
 
 
 echo "Backup was done sucessfully , Please check backup path"
-
-
-
-
