@@ -11,6 +11,7 @@ if [ -f $file ]; then
   READ=NOPE
   WRITE=NOPE
   EXE=NOPE
+#ansible_winrm_scheme
 
    if [ -r $file ]; then
      READ=YEAH
@@ -19,9 +20,8 @@ if [ -f $file ]; then
      WRITE=YEAH
    fi
    if [ -x $file ]; then
-    EXE=YEAH  
+    EXE=YEAH
    fi
 echo read : "$READ" wri  : "$WRITE" exe  : "$EXE"
-  
-fi
 
+fi
