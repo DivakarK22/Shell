@@ -4,6 +4,9 @@ Current=/home/slave-gui/simple-bash-scripts
 
 #Hellohowyou doeninggsggksahfkhsahfkakß
 
+
+#hhhehehe
+
 if [ $# != 1 ]; then
   echo Enter two or more args
   exit 1
